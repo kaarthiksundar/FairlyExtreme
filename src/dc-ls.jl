@@ -177,7 +177,7 @@ function run_dc_ls_with_fairness_constraint(file_name::AbstractString;
     ) 
 
     
-    x_vec = []
+    x_vec = JuMP.VariableRef[]
     n = length(ref[:load]) 
     factor = 1 + (sqrt(n) - 1) * epsilon
     for (i, load) in ref[:load]
