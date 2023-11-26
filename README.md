@@ -1,6 +1,6 @@
 # Source code for the paper "Fairly Extreme: Minimizing Outages Equitably" 
 
-This repository contains the source code for all the case studies in for the manuscript "Fairly Extreme: Minimizing Outages Equitably" by Kaarthik Sundar, Deepjyoti Deka and Russell Bent. 
+This repository contains the source code for all the case studies in for the manuscript "Fairly Extreme: Minimizing Outages Equitably" (https://arxiv.org/abs/2310.01348) by Kaarthik Sundar, Deepjyoti Deka and Russell Bent. 
 
 The Project.toml files contains all the Julia packages required for running the code. The two solvers used in the runs include CPLEX and Ipopt. CPLEX is a commercial MILP/MISOCP solver and hence, users require a license for the same. 
 
